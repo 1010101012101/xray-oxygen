@@ -2,8 +2,8 @@
 #pragma hdrstop
 
 #include "maTranslator.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditObject.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditMesh.h"
+#include "..\..\..\engine\xrRender\editor\EditObject.h"
+#include "..\..\..\engine\xrRender\editor\EditMesh.h"
 #include "smoth_flags.h"
 //-----------------------------------------------------------------------------------------
 BOOL CEditableObject::ParseMAMaterial(CSurface* dest, SXRShaderData& d)

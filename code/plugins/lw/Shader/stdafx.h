@@ -3,7 +3,7 @@
 //      are changed infrequently
 #pragma once
 
-#include "../../engine.vc2008/xrCore/xrCore.h"
+#include "../../engine/xrCore/xrCore.h"
 
 #define ENGINE_API 
 

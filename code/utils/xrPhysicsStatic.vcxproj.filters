@@ -138,456 +138,456 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\stdafx.cpp">
+    <ClCompile Include="..\engine\xrPhysics\stdafx.cpp">
       <Filter>kernel</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\xrPhysics.cpp">
+    <ClCompile Include="..\engine\xrPhysics\xrPhysics.cpp">
       <Filter>kernel</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\console_vars.cpp">
+    <ClCompile Include="..\engine\xrPhysics\console_vars.cpp">
       <Filter>physics</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\ShellHit.cpp">
+    <ClCompile Include="..\engine\xrPhysics\ShellHit.cpp">
       <Filter>physics</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dcTriListCollider.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dcTriListCollider.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriBox.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dTriBox.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriCallideK.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dTriCallideK.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriCylinder.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dTriCylinder.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriList.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dTriList.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriSphere.cpp">
+    <ClCompile Include="..\engine\xrPhysics\tri-colliderknoopc\dTriSphere.cpp">
       <Filter>physics\colliders\tri</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\dcylinder\dCylinder.cpp">
+    <ClCompile Include="..\engine\xrPhysics\dcylinder\dCylinder.cpp">
       <Filter>physics\colliders\cyl</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\dRayMotions.cpp">
+    <ClCompile Include="..\engine\xrPhysics\dRayMotions.cpp">
       <Filter>physics\colliders\RayMotions</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\IActivationShape.cpp">
+    <ClCompile Include="..\engine\xrPhysics\IActivationShape.cpp">
       <Filter>physics\ActivationBox</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHActivationShape.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHActivationShape.cpp">
       <Filter>physics\ActivationBox</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PhysicsExternalCommon.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PhysicsExternalCommon.cpp">
       <Filter>physics\Base</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\phvalide.cpp">
+    <ClCompile Include="..\engine\xrPhysics\phvalide.cpp">
       <Filter>physics\Base\Objects\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHInterpolation.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHInterpolation.cpp">
       <Filter>physics\Base\Objects\Utils\Interpolation</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\MathUtils.cpp">
+    <ClCompile Include="..\engine\xrPhysics\MathUtils.cpp">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHDynamicData.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHDynamicData.cpp">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHContactBodyEffector.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHContactBodyEffector.cpp">
       <Filter>physics\Base\Objects\BodyEffectors</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\..\xrServerEntities\PHNetState.cpp">
+    <ClCompile Include="..\engine\xrPhysics\..\xrServerEntities\PHNetState.cpp">
       <Filter>physics\Base\Objects\PHNet</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHMoveStorage.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHMoveStorage.cpp">
       <Filter>physics\Base\Objects\MoveStorage</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\DisablingParams.cpp">
+    <ClCompile Include="..\engine\xrPhysics\DisablingParams.cpp">
       <Filter>physics\Base\Objects\Disabling</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHDisabling.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHDisabling.cpp">
       <Filter>physics\Base\Objects\Disabling</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHActorCharacter.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHActorCharacter.cpp">
       <Filter>physics\Base\Objects\PhyMove\ActorCaracter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHAICharacter.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHAICharacter.cpp">
       <Filter>physics\Base\Objects\PhyMove\AICharacter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHCapture.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHCapture.cpp">
       <Filter>physics\Base\Objects\PhyMove\Capture</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHCaptureInit.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHCaptureInit.cpp">
       <Filter>physics\Base\Objects\PhyMove\Capture</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\ElevatorState.cpp">
+    <ClCompile Include="..\engine\xrPhysics\ElevatorState.cpp">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHSimpleCharacter.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHSimpleCharacter.cpp">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\MovementBoxDynamicActivate.cpp">
+    <ClCompile Include="..\engine\xrPhysics\MovementBoxDynamicActivate.cpp">
       <Filter>physics\Base\Objects\PhyMove\BaseCharacter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHCharacter.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHCharacter.cpp">
       <Filter>physics\Base\Objects\PhyMove\BaseCharacter</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PhysicsShell.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PhysicsShell.cpp">
       <Filter>physics\Base\Objects\BaseShell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PhysicsShellAnimator.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PhysicsShellAnimator.cpp">
       <Filter>physics\Base\Objects\BaseShell\PhysicsShellAnimator</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHElement.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHElement.cpp">
       <Filter>physics\Base\Objects\Element</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHElementNetState.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHElementNetState.cpp">
       <Filter>physics\Base\Objects\Element</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\ExtendedGeom.cpp">
+    <ClCompile Include="..\engine\xrPhysics\ExtendedGeom.cpp">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\Geometry.cpp">
+    <ClCompile Include="..\engine\xrPhysics\Geometry.cpp">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHGeometryOwner.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHGeometryOwner.cpp">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHJoint.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHJoint.cpp">
       <Filter>physics\Base\Objects\Joint</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHShell.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHShell.cpp">
       <Filter>physics\Base\Objects\Shell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHShellActivate.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHShellActivate.cpp">
       <Filter>physics\Base\Objects\Shell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHShellNetState.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHShellNetState.cpp">
       <Filter>physics\Base\Objects\Shell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHFracture.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHFracture.cpp">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHJointDestroyInfo.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHJointDestroyInfo.cpp">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHShellSplitter.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHShellSplitter.cpp">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHSplitedShell.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHSplitedShell.cpp">
       <Filter>physics\Base\Objects\SplitedShell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHObject.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHObject.cpp">
       <Filter>physics\Base\Objects\PHObject</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHIsland.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHIsland.cpp">
       <Filter>physics\Base\Objects\PHIsland</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\GeometryBits.cpp">
+    <ClCompile Include="..\engine\xrPhysics\GeometryBits.cpp">
       <Filter>physics\Base\Objects\World</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\params.cpp">
+    <ClCompile Include="..\engine\xrPhysics\params.cpp">
       <Filter>physics\Base\Objects\World</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHWorld.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHWorld.cpp">
       <Filter>physics\Base\Objects\World</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\Physics.cpp">
+    <ClCompile Include="..\engine\xrPhysics\Physics.cpp">
       <Filter>physics\Base\Objects\World</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHCollideValidator.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHCollideValidator.cpp">
       <Filter>physics\Base\Objects\CollideValidator</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\PHStaticGeomShell.cpp">
+    <ClCompile Include="..\engine\xrPhysics\PHStaticGeomShell.cpp">
       <Filter>physics\Base\Objects\StaticShell</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\physics_scripted.cpp">
+    <ClCompile Include="..\engine\xrPhysics\physics_scripted.cpp">
       <Filter>physics\Base\Objects\script</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\debug_output.cpp">
+    <ClCompile Include="..\engine\xrPhysics\debug_output.cpp">
       <Filter>physics\Base\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\collisiondamagereceiver.cpp">
+    <ClCompile Include="..\engine\xrPhysics\collisiondamagereceiver.cpp">
       <Filter>physics\damage_receiver</Filter>
     </ClCompile>
-    <ClCompile Include="..\engine.vc2008\xrPhysics\ActorCameraCollision.cpp" />
+    <ClCompile Include="..\engine\xrPhysics\ActorCameraCollision.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\stdafx.h">
+    <ClInclude Include="..\engine\xrPhysics\stdafx.h">
       <Filter>kernel</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\xrPhysics.h">
+    <ClInclude Include="..\engine\xrPhysics\xrPhysics.h">
       <Filter>kernel</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\console_vars.h">
+    <ClInclude Include="..\engine\xrPhysics\console_vars.h">
       <Filter>physics</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\__aabb_tri.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\__aabb_tri.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dcTriangle.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dcTriangle.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dcTriListCollider.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dcTriListCollider.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriBox.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriBox.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriCollideK.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriCollideK.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriColliderCommon.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriColliderCommon.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriColliderMath.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriColliderMath.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriCylinder.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriCylinder.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriList.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriList.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dTriSphere.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dTriSphere.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\dxTriList.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\dxTriList.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\tri-colliderknoopc\TriPrimitiveCollideClassDef.h">
+    <ClInclude Include="..\engine\xrPhysics\tri-colliderknoopc\TriPrimitiveCollideClassDef.h">
       <Filter>physics\colliders\tri</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\dcylinder\dCylinder.h">
+    <ClInclude Include="..\engine\xrPhysics\dcylinder\dCylinder.h">
       <Filter>physics\colliders\cyl</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\dRayMotions.h">
+    <ClInclude Include="..\engine\xrPhysics\dRayMotions.h">
       <Filter>physics\colliders\RayMotions</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IActivationShape.h">
+    <ClInclude Include="..\engine\xrPhysics\IActivationShape.h">
       <Filter>physics\ActivationBox</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHActivationShape.h">
+    <ClInclude Include="..\engine\xrPhysics\PHActivationShape.h">
       <Filter>physics\ActivationBox</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\DamageSource.h">
+    <ClInclude Include="..\engine\xrPhysics\DamageSource.h">
       <Filter>physics\Base</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ode_include.h">
+    <ClInclude Include="..\engine\xrPhysics\ode_include.h">
       <Filter>physics\Base</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ode_redefine.h">
+    <ClInclude Include="..\engine\xrPhysics\ode_redefine.h">
       <Filter>physics\Base</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PhysicsCommon.h">
+    <ClInclude Include="..\engine\xrPhysics\PhysicsCommon.h">
       <Filter>physics\Base</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PhysicsExternalCommon.h">
+    <ClInclude Include="..\engine\xrPhysics\PhysicsExternalCommon.h">
       <Filter>physics\Base</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHDefs.h">
+    <ClInclude Include="..\engine\xrPhysics\PHDefs.h">
       <Filter>physics\Base\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ph_valid_ode.h">
+    <ClInclude Include="..\engine\xrPhysics\ph_valid_ode.h">
       <Filter>physics\Base\Objects\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\phvalide.h">
+    <ClInclude Include="..\engine\xrPhysics\phvalide.h">
       <Filter>physics\Base\Objects\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHValideValues.h">
+    <ClInclude Include="..\engine\xrPhysics\PHValideValues.h">
       <Filter>physics\Base\Objects\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHInterpolation.h">
+    <ClInclude Include="..\engine\xrPhysics\PHInterpolation.h">
       <Filter>physics\Base\Objects\Utils\Interpolation</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\BlockAllocator.h">
+    <ClInclude Include="..\engine\xrPhysics\BlockAllocator.h">
       <Filter>physics\Base\Objects\Utils\Storage</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\CycleConstStorage.h">
+    <ClInclude Include="..\engine\xrPhysics\CycleConstStorage.h">
       <Filter>physics\Base\Objects\Utils\Storage</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\CalculateTriangle.h">
+    <ClInclude Include="..\engine\xrPhysics\CalculateTriangle.h">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\MathUtils.h">
+    <ClInclude Include="..\engine\xrPhysics\MathUtils.h">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\MathUtilsOde.h">
+    <ClInclude Include="..\engine\xrPhysics\MathUtilsOde.h">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\matrix_utils.h">
+    <ClInclude Include="..\engine\xrPhysics\matrix_utils.h">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHDynamicData.h">
+    <ClInclude Include="..\engine\xrPhysics\PHDynamicData.h">
       <Filter>physics\Base\Objects\Utils\Math</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHBaseBodyEffector.h">
+    <ClInclude Include="..\engine\xrPhysics\PHBaseBodyEffector.h">
       <Filter>physics\Base\Objects\BodyEffectors</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHContactBodyEffector.h">
+    <ClInclude Include="..\engine\xrPhysics\PHContactBodyEffector.h">
       <Filter>physics\Base\Objects\BodyEffectors</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\..\xrServerEntities\PHNetState.h">
+    <ClInclude Include="..\engine\xrPhysics\..\xrServerEntities\PHNetState.h">
       <Filter>physics\Base\Objects\PHNet</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHMoveStorage.h">
+    <ClInclude Include="..\engine\xrPhysics\PHMoveStorage.h">
       <Filter>physics\Base\Objects\MoveStorage</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\DisablingParams.h">
+    <ClInclude Include="..\engine\xrPhysics\DisablingParams.h">
       <Filter>physics\Base\Objects\Disabling</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHDisabling.h">
+    <ClInclude Include="..\engine\xrPhysics\PHDisabling.h">
       <Filter>physics\Base\Objects\Disabling</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHActorCharacter.h">
+    <ClInclude Include="..\engine\xrPhysics\PHActorCharacter.h">
       <Filter>physics\Base\Objects\PhyMove\ActorCaracter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHActorCharacterInline.h">
+    <ClInclude Include="..\engine\xrPhysics\PHActorCharacterInline.h">
       <Filter>physics\Base\Objects\PhyMove\ActorCaracter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHAICharacter.h">
+    <ClInclude Include="..\engine\xrPhysics\PHAICharacter.h">
       <Filter>physics\Base\Objects\PhyMove\AICharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IPHCapture.h">
+    <ClInclude Include="..\engine\xrPhysics\IPHCapture.h">
       <Filter>physics\Base\Objects\PhyMove\Capture</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHCapture.h">
+    <ClInclude Include="..\engine\xrPhysics\PHCapture.h">
       <Filter>physics\Base\Objects\PhyMove\Capture</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ElevatorState.h">
+    <ClInclude Include="..\engine\xrPhysics\ElevatorState.h">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\iclimableobject.h">
+    <ClInclude Include="..\engine\xrPhysics\iclimableobject.h">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IElevatorState.h">
+    <ClInclude Include="..\engine\xrPhysics\IElevatorState.h">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHSimpleCharacter.h">
+    <ClInclude Include="..\engine\xrPhysics\PHSimpleCharacter.h">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHSimpleCharacterInline.h">
+    <ClInclude Include="..\engine\xrPhysics\PHSimpleCharacterInline.h">
       <Filter>physics\Base\Objects\PhyMove\SipmpleCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IColisiondamageInfo.h">
+    <ClInclude Include="..\engine\xrPhysics\IColisiondamageInfo.h">
       <Filter>physics\Base\Objects\PhyMove\BaseCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\MovementBoxDynamicActivate.h">
+    <ClInclude Include="..\engine\xrPhysics\MovementBoxDynamicActivate.h">
       <Filter>physics\Base\Objects\PhyMove\BaseCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHCharacter.h">
+    <ClInclude Include="..\engine\xrPhysics\PHCharacter.h">
       <Filter>physics\Base\Objects\PhyMove\BaseCharacter</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IPhysicsShellHolder.h">
+    <ClInclude Include="..\engine\xrPhysics\IPhysicsShellHolder.h">
       <Filter>physics\Base\Objects\BaseShell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PhysicsShell.h">
+    <ClInclude Include="..\engine\xrPhysics\PhysicsShell.h">
       <Filter>physics\Base\Objects\BaseShell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PhysicsShellAnimator.h">
+    <ClInclude Include="..\engine\xrPhysics\PhysicsShellAnimator.h">
       <Filter>physics\Base\Objects\BaseShell\PhysicsShellAnimator</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PhysicsShellAnimatorBoneData.h">
+    <ClInclude Include="..\engine\xrPhysics\PhysicsShellAnimatorBoneData.h">
       <Filter>physics\Base\Objects\BaseShell\PhysicsShellAnimator</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHElement.h">
+    <ClInclude Include="..\engine\xrPhysics\PHElement.h">
       <Filter>physics\Base\Objects\Element</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHElementInline.h">
+    <ClInclude Include="..\engine\xrPhysics\PHElementInline.h">
       <Filter>physics\Base\Objects\Element</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ExtendedGeom.h">
+    <ClInclude Include="..\engine\xrPhysics\ExtendedGeom.h">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\Geometry.h">
+    <ClInclude Include="..\engine\xrPhysics\Geometry.h">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHGeometryOwner.h">
+    <ClInclude Include="..\engine\xrPhysics\PHGeometryOwner.h">
       <Filter>physics\Base\Objects\Element\Geom</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHJoint.h">
+    <ClInclude Include="..\engine\xrPhysics\PHJoint.h">
       <Filter>physics\Base\Objects\Joint</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHShell.h">
+    <ClInclude Include="..\engine\xrPhysics\PHShell.h">
       <Filter>physics\Base\Objects\Shell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHShellBuildJoint.h">
+    <ClInclude Include="..\engine\xrPhysics\PHShellBuildJoint.h">
       <Filter>physics\Base\Objects\Shell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHFracture.h">
+    <ClInclude Include="..\engine\xrPhysics\PHFracture.h">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHJointDestroyInfo.h">
+    <ClInclude Include="..\engine\xrPhysics\PHJointDestroyInfo.h">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHShellSplitter.h">
+    <ClInclude Include="..\engine\xrPhysics\PHShellSplitter.h">
       <Filter>physics\Base\Objects\Breakable</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHSplitedShell.h">
+    <ClInclude Include="..\engine\xrPhysics\PHSplitedShell.h">
       <Filter>physics\Base\Objects\SplitedShell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHObject.h">
+    <ClInclude Include="..\engine\xrPhysics\PHObject.h">
       <Filter>physics\Base\Objects\PHObject</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHUpdateObject.h">
+    <ClInclude Include="..\engine\xrPhysics\PHUpdateObject.h">
       <Filter>physics\Base\Objects\PHObject</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHIsland.h">
+    <ClInclude Include="..\engine\xrPhysics\PHIsland.h">
       <Filter>physics\Base\Objects\PHIsland</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\GeometryBits.h">
+    <ClInclude Include="..\engine\xrPhysics\GeometryBits.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IPHWorld.h">
+    <ClInclude Include="..\engine\xrPhysics\IPHWorld.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\params.h">
+    <ClInclude Include="..\engine\xrPhysics\params.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHItemList.h">
+    <ClInclude Include="..\engine\xrPhysics\PHItemList.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHWorld.h">
+    <ClInclude Include="..\engine\xrPhysics\PHWorld.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\Physics.h">
+    <ClInclude Include="..\engine\xrPhysics\Physics.h">
       <Filter>physics\Base\Objects\World</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ICollideValidator.h">
+    <ClInclude Include="..\engine\xrPhysics\ICollideValidator.h">
       <Filter>physics\Base\Objects\CollideValidator</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHCollideValidator.h">
+    <ClInclude Include="..\engine\xrPhysics\PHCollideValidator.h">
       <Filter>physics\Base\Objects\CollideValidator</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\IPHStaticGeomShell.h">
+    <ClInclude Include="..\engine\xrPhysics\IPHStaticGeomShell.h">
       <Filter>physics\Base\Objects\StaticShell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHStaticGeomShell.h">
+    <ClInclude Include="..\engine\xrPhysics\PHStaticGeomShell.h">
       <Filter>physics\Base\Objects\StaticShell</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\iphysics_scripted.h">
+    <ClInclude Include="..\engine\xrPhysics\iphysics_scripted.h">
       <Filter>physics\Base\Objects\script</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\physics_scripted.h">
+    <ClInclude Include="..\engine\xrPhysics\physics_scripted.h">
       <Filter>physics\Base\Objects\script</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\PHImpact.h">
+    <ClInclude Include="..\engine\xrPhysics\PHImpact.h">
       <Filter>physics\Base\Impact</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\debug_output.h">
+    <ClInclude Include="..\engine\xrPhysics\debug_output.h">
       <Filter>physics\Base\Debug</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\icollisiondamagereceiver.h">
+    <ClInclude Include="..\engine\xrPhysics\icollisiondamagereceiver.h">
       <Filter>physics\damage_receiver</Filter>
     </ClInclude>
-    <ClInclude Include="..\engine.vc2008\xrPhysics\ActorCameraCollision.h" />
+    <ClInclude Include="..\engine\xrPhysics\ActorCameraCollision.h" />
   </ItemGroup>
 </Project>

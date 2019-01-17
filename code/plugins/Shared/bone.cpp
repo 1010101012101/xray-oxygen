@@ -189,8 +189,8 @@ void CBone::CopyData(CBone* bone)
 
 #ifdef _LW_EXPORT
 #define ECORE_API
-#include "../../engine.vc2008/xrCDB/xrCDB.h"
-#include "../../engine.vc2008/xrSound/Sound.h"
+#include "../../engine/xrCDB/xrCDB.h"
+#include "../../engine/xrSound/Sound.h"
 #include "GameMtlLib.h"
 bool CBone::ExportOGF(IWriter& F)
 {

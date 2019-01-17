@@ -1,8 +1,8 @@
 #include "stdafx.h" 
 
 #include "SmdMaya.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditObject.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditMesh.h"
+#include "..\..\..\engine\xrRender\editor\EditObject.h"
+#include "..\..\..\engine\xrRender\editor\EditMesh.h"
 #include "Motion.h"
 #include "Envelope.h"
 #include "smoth_flags.h"
@@ -1153,7 +1153,7 @@ MStatus CXRaySkinExport::getBoneData (const MMatrix& locator)
 
 			if ((*itBones)->parentId == -1)
 			{
-				MMatrix FT = xrCalculateFullTransform((*itBones)->path.node(&status)); // Тру костыль, блин;
+				MMatrix FT = xrCalculateFullTransform((*itBones)->path.node(&status)); // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ;
 				MMatrix FT2;
 				FT2.setToProduct(FT, locator_i);
 				mat = FT2;

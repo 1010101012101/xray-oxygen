@@ -2,8 +2,8 @@
 #include "device.h"
 #include "EStats.h"
 #include "hw.h"
-#include "../engine.vc2008/xrEngine/defines.h"
-#include "../engine.vc2008/xrEngine/GameFont.h"
+#include "../engine/xrEngine/defines.h"
+#include "../engine/xrEngine/GameFont.h"
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
@@ -23,7 +23,7 @@ CEStats::~CEStats()
 
 }
 
-#include "../engine.vc2008/xrEngine/IGame_Persistent.h"
+#include "../engine/xrEngine/IGame_Persistent.h"
 void CEStats::Show(CGameFont* font)
 {
 	// Stop timers

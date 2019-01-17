@@ -1,4 +1,4 @@
-#include "..\..\..\engine.vc2008\xrRender\editor\EditMesh.H"
+#include "..\..\..\engine\xrRender\editor\EditMesh.H"
 #include "ExportDefines.H"
 #include "SmdBone.h"
 #include "SmdTriangle.h"

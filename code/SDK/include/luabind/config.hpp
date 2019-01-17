@@ -92,7 +92,7 @@
 
 // this define is set if we're currently building a luabind file
 // select import or export depending on it
-#include "../../../engine.vc2008/xrScripts/xrScripts.h"
+#include "../../../engine/xrScripts/xrScripts.h"
 #include <luabind/luabind_memory.h>
 
 using	string_class =	luabind::internal_string;

@@ -14,6 +14,6 @@
 #ifdef RELEASE
 #	undef _CPPUNWIND
 #endif
-#include "..\..\engine.vc2008\xrCore\xrCore.h"
+#include "..\..\engine\xrCore\xrCore.h"
 
 #include <dinput.h>

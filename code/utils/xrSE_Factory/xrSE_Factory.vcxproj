@@ -70,7 +70,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;./;..\..\engine.vc2008\xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;./;..\..\engine\xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XRPHYSICS_STATIC;WIN32;DEBUG;_WINDOWS;_USRDLL;XRSE_FACTORY_EXPORTS;MSVC;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
       <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
@@ -119,7 +119,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;./;../../engine.vc2008/xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;./;../../engine/xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XRPHYSICS_STATIC;WIN32;NDEBUG;_WINDOWS;_USRDLL;XRSE_FACTORY_EXPORTS;LUABIND_NO_ERROR_CHECKING;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -169,7 +169,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;./;../../xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;./;../../xrServerEntities;../../sdk/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XRPHYSICS_STATIC;WIN32;NDEBUG;_WINDOWS;_USRDLL;XRSE_FACTORY_EXPORTS;LUABIND_NO_ERROR_CHECKING;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -214,154 +214,154 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="xrSE_Factory_import_export.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\restriction_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\ai_sounds.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\restriction_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\ai_sounds.h" />
     <ClInclude Include="ai_space.h" />
     <ClInclude Include="ai_space_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_broker.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_cloner.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_comparer.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_destroyer.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_interfaces.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_loader.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_saver.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_type_traits.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\clsid_game.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_factory.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_factory_impl.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_factory_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_factory_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_abstract.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_abstract_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_client_server.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_client_server_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_script.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_script_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_single.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\object_item_single_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\smart_cast.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\associative_vector.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\associative_vector_compare_predicate.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\associative_vector_compare_predicate_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\associative_vector_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_export_macroses.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_export_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_space_forward.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_broker.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_cloner.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_comparer.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_destroyer.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_interfaces.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_loader.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_saver.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_type_traits.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\clsid_game.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_factory.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_factory_impl.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_factory_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_factory_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_abstract.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_abstract_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_client_server.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_client_server_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_script.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_script_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_single.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\object_item_single_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\smart_cast.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\associative_vector.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\associative_vector_compare_predicate.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\associative_vector_compare_predicate_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\associative_vector_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_export_macroses.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_export_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_space_forward.h" />
     <ClInclude Include="script_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_ini_file.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_ini_file_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_engine.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_engine_export.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_engine_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_engine_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_storage.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_storage_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_storage_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\opt.lua.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\opt_inline.lua.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_process.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_process_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_thread.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_thread_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_stack_tracker.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_ini_file.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_ini_file_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_engine.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_engine_export.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_engine_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_engine_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_storage.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_storage_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_storage_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\opt.lua.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\opt_inline.lua.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_process.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_process_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_thread.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_thread_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_stack_tracker.h" />
     <ClInclude Include="script_file.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\game_graph_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_human_brain.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_human_brain_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_monster_brain.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_monster_brain_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\game_base_space.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\inventory_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\game_graph_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_human_brain.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_human_brain_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_monster_brain.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_monster_brain_inline.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\game_base_space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\inventory_space.h" />
     <ClInclude Include="bone.h" />
     <ClInclude Include="NET_Compressor.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\PHSynchronize.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\character_info.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\character_info_defs.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\shared_data.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\specific_character.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xml_str_id_loader.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrMessages.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Space.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\PHSynchronize.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\character_info.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\character_info_defs.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\shared_data.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\specific_character.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xml_str_id_loader.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrMessages.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Space.h" />
     <ClInclude Include="xrUIXmlParser.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\InfoPortionDefs.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\ShapeData.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_Abstract.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_All.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_script_macroses.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\gametype_chooser.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Object_Base.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Items.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Monsters.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\ItemListTypes.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\PropertiesListTypes.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\WaveForm.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrEProps.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\InfoPortionDefs.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\ShapeData.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_Abstract.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_All.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_script_macroses.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\gametype_chooser.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Object_Base.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Items.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Monsters.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\ItemListTypes.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\PropertiesListTypes.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\WaveForm.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrEProps.h" />
     <ClInclude Include="script_value.h" />
     <ClInclude Include="script_value_inline.h" />
     <ClInclude Include="script_value_wrapper.h" />
     <ClInclude Include="script_value_wrapper_inline.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_value_container.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\script_value_container_impl.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_value_container.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\script_value_container_impl.h" />
     <ClInclude Include="script_properties_list_helper.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_Alife_Smartcovers.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrServerEntities\alife_movement_manager_holder.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\xrServer_Objects_Alife_Smartcovers.h" />
+    <ClInclude Include="..\..\engine\xrServerEntities\alife_movement_manager_holder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="xrSE_Factory.cpp" />
     <ClCompile Include="ai_space.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\object_factory.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\object_factory_register.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\object_factory_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\object_item_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_ini_file.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_ini_file_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_engine.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_engine_export.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_engine_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_storage.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_process.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_thread.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\script_stack_tracker.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\object_factory.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\object_factory_register.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\object_factory_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\object_item_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_ini_file.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_ini_file_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_engine.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_engine_export.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_engine_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_storage.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_process.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_thread.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\script_stack_tracker.cpp" />
     <ClCompile Include="script_file.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\alife_space.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\alife_human_brain.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\alife_monster_brain.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\character_info.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\specific_character.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\alife_space.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\alife_human_brain.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\alife_monster_brain.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\character_info.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\specific_character.cpp" />
     <ClCompile Include="xrUIXmlParser.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Factory.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_Abstract.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\gametype_chooser.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Object_Base.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_script2.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_script2.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_script3.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Items.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Items_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Items_script2.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Monsters.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Monsters_script.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Monsters_script2.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrserver_objects_alife_monsters_script3.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_ALife_Monsters_script4.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Factory.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_Abstract.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\gametype_chooser.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Object_Base.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_script2.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_script2.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_script3.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Items.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Items_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Items_script2.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Monsters.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Monsters_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Monsters_script2.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrserver_objects_alife_monsters_script3.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_ALife_Monsters_script4.cpp" />
     <ClCompile Include="properties_list_helper_script.cpp" />
     <ClCompile Include="script_properties_list_helper.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_Alife_Smartcovers.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrServerEntities\xrServer_Objects_Alife_Smartcovers_script.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_Alife_Smartcovers.cpp" />
+    <ClCompile Include="..\..\engine\xrServerEntities\xrServer_Objects_Alife_Smartcovers_script.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\engine.vc2008\xrScripts\xrScripts.vcxproj">
+    <ProjectReference Include="..\..\engine\xrScripts\xrScripts.vcxproj">
       <Project>{cc52e0b3-cc35-4934-9302-035b748f3f2c}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrCore\xrCore.vcxproj">
+    <ProjectReference Include="..\..\engine\xrCore\xrCore.vcxproj">
       <Project>{a0f7d1fb-59a7-4717-a7e4-96f37e91998e}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

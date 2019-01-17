@@ -1,12 +1,12 @@
 //---------------------------------------------------------------------------
 #pragma once
-#include "../engine.vc2008/xrCDB/frustum.h"
+#include "../engine/xrCDB/frustum.h"
 #include "vis_data.h"
 
 #include "..\xrRenderCommons\blender.h"
 #include "..\xrRenderCommons\blender_clsid.h"
 //#include "..\xrRenderCommons\xrRender_console.h"
-#include "..\engine.vc2008\xrRender\xrRender\PSLibrary.h"
+#include "..\engine\xrRender\xrRender\PSLibrary.h"
 #include "..\xrRenderCommons\IRenderDetailModel.H"
 #include "..\xrRenderCommons\DetailModel.H"
 
@@ -15,7 +15,7 @@ class IRenderVisual;
 class CSkeletonWallmark;
 class CKinematics;
 
-#include "..\engine.vc2008\xrEngine\device.h"
+#include "..\engine\xrEngine\device.h"
 // definition (Renderer)
 class CRenderTarget /*:public IRender_Target*/
 {

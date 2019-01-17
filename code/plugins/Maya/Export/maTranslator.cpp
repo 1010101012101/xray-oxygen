@@ -2,7 +2,7 @@
 #pragma hdrstop
 
 #include "maTranslator.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditObject.h"
+#include "..\..\..\engine\xrRender\editor\EditObject.h"
 
 #define NO_SMOOTHING_GROUP      -1
 #define INITIALIZE_SMOOTHING    -2

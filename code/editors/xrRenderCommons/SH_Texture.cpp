@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #pragma hdrstop
-#include "../engine.vc2008/xrEngine/render.h"
-#include "../engine.vc2008/xrEngine/device.h"
+#include "../engine/xrEngine/render.h"
+#include "../engine/xrEngine/device.h"
 #include "HW.h"
 #include "SH_Texture.h"
 #include "ResourceManager.h"

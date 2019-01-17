@@ -75,7 +75,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine.vc2008\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;DEBUG;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -130,7 +130,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine.vc2008\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -191,7 +191,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine.vc2008\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/;../../sdk/include/dx;..\..\engine\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>

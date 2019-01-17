@@ -1,6 +1,6 @@
 #pragma once
 #include "r_constants.h"
-#include "../engine.vc2008/xrRender/xrRender/ETextureParams.h"
+#include "../engine/xrRender/xrRender/ETextureParams.h"
 
 class cl_dt_scaler;
 

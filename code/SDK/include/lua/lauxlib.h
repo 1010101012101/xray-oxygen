@@ -1,2 +1,2 @@
 #pragma once
-#include "..\..\engine.vc2008\xrScripts\luajit\lauxlib.h"
+#include "..\..\engine\xrScripts\luajit\lauxlib.h"

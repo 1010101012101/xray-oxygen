@@ -63,22 +63,22 @@
     <ClCompile Include="Export\MayaExport.cpp">
       <Filter>Export\Object</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObjectMotions.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObjectMotions.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMesh.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMesh.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMeshIO.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMeshIO.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMeshModify.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMeshModify.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObject.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObject.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObjectIO.cpp">
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObjectIO.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
   </ItemGroup>
@@ -104,10 +104,10 @@
     <ClInclude Include="Export\ExportDefines.h">
       <Filter>Export</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\xrRender\Editor\EditMesh.h">
+    <ClInclude Include="..\..\engine\xrRender\Editor\EditMesh.h">
       <Filter>Shared Files\Editor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\xrRender\Editor\EditObject.h">
+    <ClInclude Include="..\..\engine\xrRender\Editor\EditObject.h">
       <Filter>Shared Files\Editor</Filter>
     </ClInclude>
   </ItemGroup>

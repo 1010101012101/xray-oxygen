@@ -1,6 +1,6 @@
 #define ENGINE_API
 #include "stdafx.h"
-#include "../../engine.vc2008/xrEngine/Fmesh.h"
+#include "../../engine/xrEngine/Fmesh.h"
 
 void ogf_desc::Load(IReader& F)
 {

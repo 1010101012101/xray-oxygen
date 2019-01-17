@@ -731,16 +731,16 @@
     <ClInclude Include="resource.h">
       <Filter>resources</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\Include\editor\engine.hpp">
+    <ClInclude Include="..\..\engine\Include\editor\engine.hpp">
       <Filter>interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\Include\editor\ide.hpp">
+    <ClInclude Include="..\..\engine\Include\editor\ide.hpp">
       <Filter>interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\Include\editor\interfaces.hpp">
+    <ClInclude Include="..\..\engine\Include\editor\interfaces.hpp">
       <Filter>interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\engine.vc2008\Include\editor\property_holder.hpp">
+    <ClInclude Include="..\..\engine\Include\editor\property_holder.hpp">
       <Filter>interfaces</Filter>
     </ClInclude>
   </ItemGroup>

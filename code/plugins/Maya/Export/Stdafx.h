@@ -5,7 +5,7 @@
 
 #define ENGINE_API 
 #define _WIN32_WINNT 0x0500        
-#include "../../engine.vc2008/xrCore/xrCore.h"
+#include "../../engine/xrCore/xrCore.h"
 
 #pragma warning(push)
 #pragma warning(disable:4995)
@@ -76,7 +76,7 @@ typedef TMsgDlgBtn TMsgDlgButtons[mbHelp];
 #	include "..\..\Shared\ELog.h"
 #pragma warning(pop)
 
-//#include "../../engine.vc2008/xrEngine/bone.h"
+//#include "../../engine/xrEngine/bone.h"
 
 #pragma warning(push)
 #pragma warning(disable:4995)

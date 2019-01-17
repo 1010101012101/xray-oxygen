@@ -2,7 +2,7 @@
 #include <lwrender.h>
 #include <lwhost.h>
 #include "../../Editors/xrECoreLite/EditObject.h"
-#include "../../engine.vc2008/xrEngine/bone.h"
+#include "../../engine/xrEngine/bone.h"
 #include <lwdisplay.h>
 #include <lwserver.h>
 
@@ -128,7 +128,7 @@ extern "C" {
 						}else
 							bErr = true;
 					}
-					// перенести выше или проверить не перетерает ли инфу о костях
+					// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 					if (bErr)	g_msg->error("Export failed.",0);
 					else		g_msg->info	("Export successful.",buf);

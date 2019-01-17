@@ -97,15 +97,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\engine.vc2008\xrManagedEngineLib\xrManagedEngineLib.vcxproj">
+    <ProjectReference Include="..\..\engine\xrManagedEngineLib\xrManagedEngineLib.vcxproj">
       <Project>{09dc3343-46ca-4d55-bfe3-317c0ff02e52}</Project>
       <Name>xrManagedEngineLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrManagedLib\xrManagedLib.vcxproj">
+    <ProjectReference Include="..\..\engine\xrManagedLib\xrManagedLib.vcxproj">
       <Project>{c4defc31-a910-4339-99b3-6c410dc19ad0}</Project>
       <Name>xrManagedCoreLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrManagedUILib\xrManagedUILib.vcxproj">
+    <ProjectReference Include="..\..\engine\xrManagedUILib\xrManagedUILib.vcxproj">
       <Project>{d5ab4347-a96f-478d-9b44-9e3cbbdfcbdb}</Project>
       <Name>xrManagedUILib</Name>
     </ProjectReference>

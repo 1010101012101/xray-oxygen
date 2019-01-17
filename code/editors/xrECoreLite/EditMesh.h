@@ -13,8 +13,8 @@ class CCustomObject;
 using PlaneVec = xr_vector<Fplane>;
 using PlaneIt = PlaneVec::iterator;
 
-#include "../../engine.vc2008/xrCDB/xrCDB.h"
-#include "../../engine.vc2008/xrSound/Sound.h"
+#include "../../engine/xrCDB/xrCDB.h"
+#include "../../engine/xrSound/Sound.h"
 #include "bone.h"
 
 #pragma pack( push,1 )

@@ -2,68 +2,68 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCDB", "engine.vc2008\xrCDB\xrCDB.vcxproj", "{A19B1DF2-82EC-4364-8BDF-85D13A1C89B5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCDB", "engine\xrCDB\xrCDB.vcxproj", "{A19B1DF2-82EC-4364-8BDF-85D13A1C89B5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AE0574E2-BE4C-49B0-98A6-739176D69277} = {AE0574E2-BE4C-49B0-98A6-739176D69277}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCore", "engine.vc2008\xrCore\xrCore.vcxproj", "{A0F7D1FB-59A7-4717-A7E4-96F37E91998E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCore", "engine\xrCore\xrCore.vcxproj", "{A0F7D1FB-59A7-4717-A7E4-96F37E91998E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{76485157-3A23-47E9-8A5E-5B190F91511C} = {76485157-3A23-47E9-8A5E-5B190F91511C}
 		{4DA914AA-B7E4-4CF3-8AD0-02674BFC44FA} = {4DA914AA-B7E4-4CF3-8AD0-02674BFC44FA}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrGame", "engine.vc2008\xrGame\xrGame.vcxproj", "{200652A6-043E-4634-8837-87983B3BD5E0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrGame", "engine\xrGame\xrGame.vcxproj", "{200652A6-043E-4634-8837-87983B3BD5E0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D1317D51-2172-46BB-898C-CD2363DD8171} = {D1317D51-2172-46BB-898C-CD2363DD8171}
 		{471C6E53-3038-4AB2-B913-6DE27C79DD16} = {471C6E53-3038-4AB2-B913-6DE27C79DD16}
 		{295BF6D3-FE39-41FC-82B3-E94F97E24845} = {295BF6D3-FE39-41FC-82B3-E94F97E24845}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrParticles", "engine.vc2008\xrParticles\xrParticles.vcxproj", "{94A1C366-3D19-48E6-8170-4ADC2E70DF97}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrParticles", "engine\xrParticles\xrParticles.vcxproj", "{94A1C366-3D19-48E6-8170-4ADC2E70DF97}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CC52E0B3-CC35-4934-9302-035B748F3F2C} = {CC52E0B3-CC35-4934-9302-035B748F3F2C}
 		{2578C6D8-660D-48AE-9322-7422F8664F06} = {2578C6D8-660D-48AE-9322-7422F8664F06}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_R2", "engine.vc2008\xrRender\xrRenderPC_R2\xrRender_R2.vcxproj", "{963BA4E5-499A-454D-B002-1D5ECE0527A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_R2", "engine\xrRender\xrRenderPC_R2\xrRender_R2.vcxproj", "{963BA4E5-499A-454D-B002-1D5ECE0527A6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CC52E0B3-CC35-4934-9302-035B748F3F2C} = {CC52E0B3-CC35-4934-9302-035B748F3F2C}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrSound", "engine.vc2008\xrSound\xrSound.vcxproj", "{CCCA7859-EB86-493E-9B53-C4235F45B3C5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrSound", "engine\xrSound\xrSound.vcxproj", "{CCCA7859-EB86-493E-9B53-C4235F45B3C5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrEngine", "engine.vc2008\xrEngine\xrEngine.vcxproj", "{2578C6D8-660D-48AE-9322-7422F8664F06}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrEngine", "engine\xrEngine\xrEngine.vcxproj", "{2578C6D8-660D-48AE-9322-7422F8664F06}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5E0EC2A-4783-4A53-AE1E-228464FC8F69} = {A5E0EC2A-4783-4A53-AE1E-228464FC8F69}
 		{A0F7D1FB-59A7-4717-A7E4-96F37E91998E} = {A0F7D1FB-59A7-4717-A7E4-96F37E91998E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrScripts", "engine.vc2008\xrScripts\xrScripts.vcxproj", "{CC52E0B3-CC35-4934-9302-035B748F3F2C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrScripts", "engine\xrScripts\xrScripts.vcxproj", "{CC52E0B3-CC35-4934-9302-035B748F3F2C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9E14D7B5-9D0E-4373-B076-33DD4BECDBA0} = {9E14D7B5-9D0E-4373-B076-33DD4BECDBA0}
 		{A0F7D1FB-59A7-4717-A7E4-96F37E91998E} = {A0F7D1FB-59A7-4717-A7E4-96F37E91998E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrPhysics", "engine.vc2008\xrPhysics\xrPhysics.vcxproj", "{98D24A3D-7666-4C11-9D6E-B10393CE8CBA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrPhysics", "engine\xrPhysics\xrPhysics.vcxproj", "{98D24A3D-7666-4C11-9D6E-B10393CE8CBA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{94A1C366-3D19-48E6-8170-4ADC2E70DF97} = {94A1C366-3D19-48E6-8170-4ADC2E70DF97}
 		{AE0574E2-BE4C-49B0-98A6-739176D69277} = {AE0574E2-BE4C-49B0-98A6-739176D69277}
 		{1BF75FEB-87DD-486C-880B-227987D191C2} = {1BF75FEB-87DD-486C-880B-227987D191C2}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_R4", "engine.vc2008\xrRender\xrRenderPC_R4\xrRender_R4.vcxproj", "{AC9B12ED-A2D7-4337-A981-5BD8430E96D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_R4", "engine\xrRender\xrRenderPC_R4\xrRender_R4.vcxproj", "{AC9B12ED-A2D7-4337-A981-5BD8430E96D8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{94A1C366-3D19-48E6-8170-4ADC2E70DF97} = {94A1C366-3D19-48E6-8170-4ADC2E70DF97}
 		{CC52E0B3-CC35-4934-9302-035B748F3F2C} = {CC52E0B3-CC35-4934-9302-035B748F3F2C}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildVm", "engine.vc2008\xrScripts\BuildVm\BuildVm.vcxproj", "{9E14D7B5-9D0E-4373-B076-33DD4BECDBA0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildVm", "engine\xrScripts\BuildVm\BuildVm.vcxproj", "{9E14D7B5-9D0E-4373-B076-33DD4BECDBA0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrPlay", "engine.vc2008\xrPlay\xrPlay.vcxproj", "{131A9895-FE16-417A-8C41-16A5994A6D13}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrPlay", "engine\xrPlay\xrPlay.vcxproj", "{131A9895-FE16-417A-8C41-16A5994A6D13}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2578C6D8-660D-48AE-9322-7422F8664F06} = {2578C6D8-660D-48AE-9322-7422F8664F06}
 	EndProjectSection
@@ -80,54 +80,54 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "min_obb", "3rd-party\min_ob
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pre-build tools", "pre-build tools", "{AEBB1563-4C98-4389-BD7C-09FBB6012CBE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitParser", "engine.vc2008\xrCore\GitParser\GitParser.vcxproj", "{76485157-3A23-47E9-8A5E-5B190F91511C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitParser", "engine\xrCore\GitParser\GitParser.vcxproj", "{76485157-3A23-47E9-8A5E-5B190F91511C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Renders", "Renders", "{7A76B1EB-9731-4FA0-8B13-5B5046FF7FC6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedCoreLib", "engine.vc2008\xrManagedLib\xrManagedLib.vcxproj", "{C4DEFC31-A910-4339-99B3-6C410DC19AD0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedCoreLib", "engine\xrManagedLib\xrManagedLib.vcxproj", "{C4DEFC31-A910-4339-99B3-6C410DC19AD0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A0F7D1FB-59A7-4717-A7E4-96F37E91998E} = {A0F7D1FB-59A7-4717-A7E4-96F37E91998E}
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spectre", "Spectre", "{2813539F-84F6-44F9-844E-557158626F35}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedRenderLib", "engine.vc2008\xrManagedRenderLib\xrManagedRenderLib.vcxproj", "{42986579-D91D-4523-AE54-0BFFEB0748C2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedRenderLib", "engine\xrManagedRenderLib\xrManagedRenderLib.vcxproj", "{42986579-D91D-4523-AE54-0BFFEB0748C2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CCCA7859-EB86-493E-9B53-C4235F45B3C5} = {CCCA7859-EB86-493E-9B53-C4235F45B3C5}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedECoreLib", "engine.vc2008\xrManagedECoreLib\xrManagedECoreLib.vcxproj", "{ACE4DA6A-FD27-4006-94BA-E0132A51930E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedECoreLib", "engine\xrManagedECoreLib\xrManagedECoreLib.vcxproj", "{ACE4DA6A-FD27-4006-94BA-E0132A51930E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzo", "3rd-party\lzo\lzo.vcxproj", "{4DA914AA-B7E4-4CF3-8AD0-02674BFC44FA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IKAN", "3rd-party\IKAN\IKAN.vcxproj", "{471C6E53-3038-4AB2-B913-6DE27C79DD16}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrUICore", "engine.vc2008\xrUICore\xrUICore.vcxproj", "{295BF6D3-FE39-41FC-82B3-E94F97E24845}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrUICore", "engine\xrUICore\xrUICore.vcxproj", "{295BF6D3-FE39-41FC-82B3-E94F97E24845}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2578C6D8-660D-48AE-9322-7422F8664F06} = {2578C6D8-660D-48AE-9322-7422F8664F06}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedEngineLib", "engine.vc2008\xrManagedEngineLib\xrManagedEngineLib.vcxproj", "{09DC3343-46CA-4D55-BFE3-317C0FF02E52}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedEngineLib", "engine\xrManagedEngineLib\xrManagedEngineLib.vcxproj", "{09DC3343-46CA-4D55-BFE3-317C0FF02E52}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2578C6D8-660D-48AE-9322-7422F8664F06} = {2578C6D8-660D-48AE-9322-7422F8664F06}
 		{A0F7D1FB-59A7-4717-A7E4-96F37E91998E} = {A0F7D1FB-59A7-4717-A7E4-96F37E91998E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedGameLib", "engine.vc2008\xrManagedGameLib\xrManagedGameLib.vcxproj", "{DECF49BA-E334-47D5-8C0C-D6C3DC67A759}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedGameLib", "engine\xrManagedGameLib\xrManagedGameLib.vcxproj", "{DECF49BA-E334-47D5-8C0C-D6C3DC67A759}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{FB339160-99FE-47BD-B161-B3EB1C4C5974}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedUILib", "engine.vc2008\xrManagedUILib\xrManagedUILib.vcxproj", "{D5AB4347-A96F-478D-9B44-9E3CBBDFCBDB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedUILib", "engine\xrManagedUILib\xrManagedUILib.vcxproj", "{D5AB4347-A96F-478D-9B44-9E3CBBDFCBDB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiscordRichPresense", "3rd-party\DiscordRPC\DiscordRichPresense.vcxproj", "{A5E0EC2A-4783-4A53-AE1E-228464FC8F69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Physical External", "Physical External", "{4983DCA1-9704-4220-8AF7-4001775FD3F5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrShaders", "engine.vc2008\xrRender\xrShaders\xrShaders.vcxproj", "{58818F0E-2DA2-48E4-9BB8-4D7629426F25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrShaders", "engine\xrRender\xrShaders\xrShaders.vcxproj", "{58818F0E-2DA2-48E4-9BB8-4D7629426F25}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrDebugger", "engine.vc2008\xrDebugger\xrDebugger.vcxproj", "{D518816E-B82A-4E7D-8637-9B210FBA2213}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrDebugger", "engine\xrDebugger\xrDebugger.vcxproj", "{D518816E-B82A-4E7D-8637-9B210FBA2213}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_VK", "engine.vc2008\xrRender\xrRenderVK\xrRender_VK.vcxproj", "{9FB10D09-B11C-4D5C-AC31-F871781EF6EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRender_VK", "engine\xrRender\xrRenderVK\xrRender_VK.vcxproj", "{9FB10D09-B11C-4D5C-AC31-F871781EF6EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

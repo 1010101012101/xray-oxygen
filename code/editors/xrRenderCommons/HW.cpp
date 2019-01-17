@@ -8,9 +8,9 @@
 #include <d3dx9.h>
 #pragma warning(default:4995)
 #include "HW.h"
-#include "../engine.vc2008/xrEngine/defines.h"
-#include "../engine.vc2008/xrEngine/pure.h"
-#include "../engine.vc2008/xrEngine/XR_IOConsole.h"
+#include "../engine/xrEngine/defines.h"
+#include "../engine/xrEngine/pure.h"
+#include "../engine/xrEngine/XR_IOConsole.h"
 
 void fill_vid_mode_list(CHW* _hw);
 void free_vid_mode_list();

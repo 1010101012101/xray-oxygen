@@ -64,7 +64,7 @@
     </Midl>
     <ClCompile>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>Export/;../../3rd-party/lwdk/include;../../SDK/include/dx/;../Shared;../../SDK/include/;..\..\engine.vc2008\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Export/;../../3rd-party/lwdk/include;../../SDK/include/dx/;../Shared;../../SDK/include/;..\..\engine\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;_LW_PLUGIN;_LW_EXPORT;XRCORE_STATIC;_MSWIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -107,7 +107,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>Export/;../../3rd-party/lwdk/include;../../SDK/include/dx/;../Shared;../../SDK/include/;..\..\engine.vc2008\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Export/;../../3rd-party/lwdk/include;../../SDK/include/dx/;../Shared;../../SDK/include/;..\..\engine\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG;_WINDOWS;_USRDLL;_LW_PLUGIN;_LW_EXPORT;XRCORE_STATIC;_MSWIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -145,7 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\engine.vc2008\xrEngine\SkeletonMotions.cpp" />
+    <ClCompile Include="..\..\engine\xrEngine\SkeletonMotions.cpp" />
     <ClCompile Include="..\..\utils\common\NvMender2003\NVMeshMender4.cpp" />
     <ClCompile Include="..\Shared\bone.cpp" />
     <ClCompile Include="..\Shared\EditObjectImport.cpp" />

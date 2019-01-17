@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMesh.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMeshIO.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditMeshModify.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObject.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObjectIO.cpp" />
-    <ClCompile Include="..\..\engine.vc2008\xrRender\Editor\EditObjectMotions.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMesh.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMeshIO.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditMeshModify.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObject.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObjectIO.cpp" />
+    <ClCompile Include="..\..\engine\xrRender\Editor\EditObjectMotions.cpp" />
     <ClCompile Include="..\Shared\bone.cpp" />
     <ClCompile Include="..\Shared\ELog.cpp" />
     <ClCompile Include="..\Shared\Envelope.cpp" />
@@ -165,8 +165,8 @@
     <ClCompile Include="Export\XRayExport.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\engine.vc2008\xrRender\Editor\EditMesh.h" />
-    <ClInclude Include="..\..\engine.vc2008\xrRender\Editor\EditObject.h" />
+    <ClInclude Include="..\..\engine\xrRender\Editor\EditMesh.h" />
+    <ClInclude Include="..\..\engine\xrRender\Editor\EditObject.h" />
     <ClInclude Include="..\Shared\bone.h" />
     <ClInclude Include="..\Shared\ELog.h" />
     <ClInclude Include="..\Shared\envelope.h" />

@@ -179,7 +179,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\engine.vc2008\xrManagedLib\xrManagedLib.vcxproj">
+    <ProjectReference Include="..\..\engine\xrManagedLib\xrManagedLib.vcxproj">
       <Project>{c4defc31-a910-4339-99b3-6c410dc19ad0}</Project>
       <Name>xrManagedCoreLib</Name>
     </ProjectReference>

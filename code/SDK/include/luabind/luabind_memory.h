@@ -15,7 +15,7 @@
 #endif // #ifdef DEBUG
 
 #include <luabind/luabind_types.h>
-#include "../../engine.vc2008/xrScripts/xrScripts.h"
+#include "../../engine/xrScripts/xrScripts.h"
 
 namespace luabind {
 	extern LUABIND_API	memory_allocation_function_pointer		allocator;

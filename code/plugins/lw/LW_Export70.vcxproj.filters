@@ -93,7 +93,7 @@
     <ClCompile Include="..\Shared\EditObjectImport.cpp">
       <Filter>Shared Files\Editor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrEngine\SkeletonMotions.cpp">
+    <ClCompile Include="..\..\engine\xrEngine\SkeletonMotions.cpp">
       <Filter>Shared Files\Engine</Filter>
     </ClCompile>
     <ClCompile Include="..\..\utils\common\NvMender2003\NVMeshMender4.cpp" />

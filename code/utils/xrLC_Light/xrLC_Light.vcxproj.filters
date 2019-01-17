@@ -357,7 +357,7 @@
     <ClCompile Include="recalculation.cpp">
       <Filter>do_light</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\engine.vc2008\xrEngine\xrLoadSurface.cpp">
+    <ClCompile Include="..\..\engine\xrEngine\xrLoadSurface.cpp">
       <Filter>kernel</Filter>
     </ClCompile>
     <ClCompile Include="xrHardwareLight.cpp">

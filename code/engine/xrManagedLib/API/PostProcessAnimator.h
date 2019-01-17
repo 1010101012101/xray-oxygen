@@ -1,5 +1,5 @@
-#include "../../../engine.vc2008/xrCore/xrCore.h"
-#include "../../../engine.vc2008/xrCore/PostprocessAnimator.h"
+#include "../../../engine/xrCore/xrCore.h"
+#include "../../../engine/xrCore/PostprocessAnimator.h"
 #include "Types.hpp"
 
 namespace XRay

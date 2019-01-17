@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////
 #pragma once
 #include "SmdBone.h"
-#include "..\..\..\engine.vc2008\xrRender\editor\EditMesh.H"
+#include "..\..\..\engine\xrRender\editor\EditMesh.H"
 
 class SmdVertex
 {

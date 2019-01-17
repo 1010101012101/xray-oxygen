@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xrPostprocessEditor", "edit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xrSDKControls", "editors\xrSdkControls\xrSDKControls.csproj", "{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCore", "engine.vc2008\xrCore\xrCore.vcxproj", "{A0F7D1FB-59A7-4717-A7E4-96F37E91998E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCore", "engine\xrCore\xrCore.vcxproj", "{A0F7D1FB-59A7-4717-A7E4-96F37E91998E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{76485157-3A23-47E9-8A5E-5B190F91511C} = {76485157-3A23-47E9-8A5E-5B190F91511C}
 	EndProjectSection
@@ -24,7 +24,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrECoreLite", "editors\xrEC
 		{65CBB9D0-FBC6-41A4-8316-F5E9B5D7FB33} = {65CBB9D0-FBC6-41A4-8316-F5E9B5D7FB33}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ETools", "engine.vc2008\xrTools\ETools.vcxproj", "{65CBB9D0-FBC6-41A4-8316-F5E9B5D7FB33}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ETools", "engine\xrTools\ETools.vcxproj", "{65CBB9D0-FBC6-41A4-8316-F5E9B5D7FB33}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrRenderCommons", "editors\xrRenderCommons\xrRenderCommons.vcxproj", "{F213ED3C-FDF3-372D-812D-D7C1843D5BAB}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -38,27 +38,27 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrMeshEditor", "editors\xrM
 		{722D40C3-FE5A-4A9B-94A5-5DC23A7C7AE1} = {722D40C3-FE5A-4A9B-94A5-5DC23A7C7AE1}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrQSlim", "engine.vc2008\xrQSlim\xrQSlim.vcxproj", "{F1836CE2-59EF-4189-8B9C-D103A511CB27}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrQSlim", "engine\xrQSlim\xrQSlim.vcxproj", "{F1836CE2-59EF-4189-8B9C-D103A511CB27}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCDB", "engine.vc2008\xrCDB\xrCDB.vcxproj", "{A19B1DF2-82EC-4364-8BDF-85D13A1C89B5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrCDB", "engine\xrCDB\xrCDB.vcxproj", "{A19B1DF2-82EC-4364-8BDF-85D13A1C89B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pre-build tools", "pre-build tools", "{3E7B6590-A206-4054-8686-A99CC443057A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitParser", "engine.vc2008\xrCore\GitParser\GitParser.vcxproj", "{76485157-3A23-47E9-8A5E-5B190F91511C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitParser", "engine\xrCore\GitParser\GitParser.vcxproj", "{76485157-3A23-47E9-8A5E-5B190F91511C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xrEditor", "editors\xrEditor\xrEditor.csproj", "{A7773ECE-2F73-42A7-8783-4F79F97BD4AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spectre", "Spectre", "{EE367C9E-D255-4A7D-8CF4-BFFDE0FAFC1D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedECoreLib", "engine.vc2008\xrManagedECoreLib\xrManagedECoreLib.vcxproj", "{ACE4DA6A-FD27-4006-94BA-E0132A51930E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedECoreLib", "engine\xrManagedECoreLib\xrManagedECoreLib.vcxproj", "{ACE4DA6A-FD27-4006-94BA-E0132A51930E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedEngineLib", "engine.vc2008\xrManagedEngineLib\xrManagedEngineLib.vcxproj", "{09DC3343-46CA-4D55-BFE3-317C0FF02E52}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedEngineLib", "engine\xrManagedEngineLib\xrManagedEngineLib.vcxproj", "{09DC3343-46CA-4D55-BFE3-317C0FF02E52}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedGameLib", "engine.vc2008\xrManagedGameLib\xrManagedGameLib.vcxproj", "{DECF49BA-E334-47D5-8C0C-D6C3DC67A759}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedGameLib", "engine\xrManagedGameLib\xrManagedGameLib.vcxproj", "{DECF49BA-E334-47D5-8C0C-D6C3DC67A759}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedCoreLib", "engine.vc2008\xrManagedLib\xrManagedLib.vcxproj", "{C4DEFC31-A910-4339-99B3-6C410DC19AD0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedCoreLib", "engine\xrManagedLib\xrManagedLib.vcxproj", "{C4DEFC31-A910-4339-99B3-6C410DC19AD0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedRenderLib", "engine.vc2008\xrManagedRenderLib\xrManagedRenderLib.vcxproj", "{42986579-D91D-4523-AE54-0BFFEB0748C2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedRenderLib", "engine\xrManagedRenderLib\xrManagedRenderLib.vcxproj", "{42986579-D91D-4523-AE54-0BFFEB0748C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deprecated", "Deprecated", "{896A2103-A208-42CB-A7EB-51312DFB67F5}"
 EndProject
@@ -67,17 +67,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xrLayoutEditor", "editors\x
 		{C4DEFC31-A910-4339-99B3-6C410DC19AD0} = {C4DEFC31-A910-4339-99B3-6C410DC19AD0}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrEngine", "engine.vc2008\xrEngine\xrEngine.vcxproj", "{2578C6D8-660D-48AE-9322-7422F8664F06}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrEngine", "engine\xrEngine\xrEngine.vcxproj", "{2578C6D8-660D-48AE-9322-7422F8664F06}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5E0EC2A-4783-4A53-AE1E-228464FC8F69} = {A5E0EC2A-4783-4A53-AE1E-228464FC8F69}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrUICore", "engine.vc2008\xrUICore\xrUICore.vcxproj", "{295BF6D3-FE39-41FC-82B3-E94F97E24845}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrUICore", "engine\xrUICore\xrUICore.vcxproj", "{295BF6D3-FE39-41FC-82B3-E94F97E24845}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2578C6D8-660D-48AE-9322-7422F8664F06} = {2578C6D8-660D-48AE-9322-7422F8664F06}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedUILib", "engine.vc2008\xrManagedUILib\xrManagedUILib.vcxproj", "{D5AB4347-A96F-478D-9B44-9E3CBBDFCBDB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xrManagedUILib", "engine\xrManagedUILib\xrManagedUILib.vcxproj", "{D5AB4347-A96F-478D-9B44-9E3CBBDFCBDB}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C4DEFC31-A910-4339-99B3-6C410DC19AD0} = {C4DEFC31-A910-4339-99B3-6C410DC19AD0}
 		{295BF6D3-FE39-41FC-82B3-E94F97E24845} = {295BF6D3-FE39-41FC-82B3-E94F97E24845}

@@ -84,7 +84,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine.vc2008\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine.vc2008\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USE_MATH_DEFINES;WIN32;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -152,7 +152,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine.vc2008\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine.vc2008\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_USE_MATH_DEFINES;WIN32;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -211,7 +211,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\engine.vc2008\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine.vc2008\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine.vc2008\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\engine\xrCore\XMLCore;../../sdk/include/dx/;../../sdk/include/;..\..\engine\xrQSlim\src;../../sdk/include/optix;../../sdk/include/cuda/;../common/;..\..\engine\;../../sdk/include/RadeonRays/;../../sdk/include/RadeonRays/Calc/;../../sdk/include/RadeonRays/CLW/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>FORCE_NO_EXCEPTIONS;_USE_MATH_DEFINES;WIN32;DEBUG;_WINDOWS;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>
@@ -291,7 +291,7 @@
     <ClInclude Include="xrGameMaterials.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\engine.vc2008\xrEngine\xrLoadSurface.cpp" />
+    <ClCompile Include="..\..\engine\xrEngine\xrLoadSurface.cpp" />
     <ClCompile Include="..\common\NvMender2003\NVMeshMender4.cpp" />
     <ClCompile Include="PLY_Exporter.cpp" />
     <ClCompile Include="StdAfx.cpp">
@@ -341,19 +341,19 @@
     <ClCompile Include="xrT_Junction.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\engine.vc2008\xrCDB\xrCDB.vcxproj">
+    <ProjectReference Include="..\..\engine\xrCDB\xrCDB.vcxproj">
       <Project>{a19b1df2-82ec-4364-8bdf-85d13a1c89b5}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrCore\xrCore.vcxproj">
+    <ProjectReference Include="..\..\engine\xrCore\xrCore.vcxproj">
       <Project>{a0f7d1fb-59a7-4717-a7e4-96f37e91998e}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrQSlim\xrQSlim.vcxproj">
+    <ProjectReference Include="..\..\engine\xrQSlim\xrQSlim.vcxproj">
       <Project>{f1836ce2-59ef-4189-8b9c-d103a511cb27}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrTools\ETools.vcxproj">
+    <ProjectReference Include="..\..\engine\xrTools\ETools.vcxproj">
       <Project>{65cbb9d0-fbc6-41a4-8316-f5e9b5d7fb33}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
